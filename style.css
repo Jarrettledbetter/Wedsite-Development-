@@ -1,7 +1,7 @@
 h1 { 
     color:green;
     font-family: Arial, Helvetica, sans-serif;
-   }
+}   
 
 p {
     font-weight: bold ;
@@ -38,4 +38,21 @@ img {
 
 .col1 img {
     display: none;
+}
+
+
+/**Hero Section**/
+.hero{
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
